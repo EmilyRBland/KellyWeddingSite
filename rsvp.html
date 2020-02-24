@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-
 <html>
-  
   <head>
-    
     <title>RSVP - The Kelly Wedding</title>
-    
+    <link href="WeddingSiteCSS.css" type="text/css" rel="stylesheet">
   </head>
-  
   <body>
-    
-    <h1 align="middle"><a href="./theKellyWedding.html">Home</a>  |  <a href="https://www.swancarfarmcountryhouse.com/" target="_blank">Venue</a>  |  <a href="./accommodation.html">Accommodation</a>  |  <a href="./rsvp.html"><em>RSVP</em></a>  |  <a href="./menu.html">Menu</a></h1>
-    
-    <p align="middle">If you are unable to attend then please click here to send us an email: <a href="mailto:kellywedding281120@gmail.com" target="_blank">Email us!</a></p>
-    
-    <form method="POST" action="./submission.html">
-      <section align="middle">
-        <h3 align="middle"><b>Please fill and submit the form below</b></h3>
-        <label for="first name">First Name</label>
-        <input type="text" name="name" id="first name" required>
-        <label for="surname"> Surname</label>
-        <input type="text" name="name" id="surname" required>
+    <header>
+    <h1><a href="./theKellyWedding.html">Home</a>  |  <a href="./venue.html">Venue</a>  |  <a href="./accommodation.html">Accommodation</a>  |  <a href="./rsvp.html"><em>RSVP</em></a>  |  <a href="./menu.html">Menu</a></h1>
+    </header>
+    <main>
+      <section>
+        <p>If you are unable to attend then please click here to send us an email: <a href="mailto:kellywedding281120@gmail.com" target="_blank">Email us!</a></p>
       </section>
-      <section align="middle">
+      <section>
+      <form method="POST" action="./submission.html">
+      <section>
+        <h3><b>Please fill and submit the form below</b></h3>
+        <label for="full-name">Full Name</label>
+        <input type="text" name="name" id="full-name" required>
+      </section>
+      <section>
         <h3>Menu</h3>
         <b>Starters</b>
         <br>
@@ -31,6 +28,9 @@
         <br>
         <label for="soup">Carrot and butternut squash soup</label>
         <input type="radio" name="starter" id="soup">
+        <br>
+        <label for="kids">Childrens starter</label>
+        <input type="radio" name="starter" id="kids">
         <br>
         <b>Mains</b>
         <br>
@@ -43,6 +43,9 @@
         <label for="veggie">Three cheese tart</label>
         <input type="radio" name="main" id="veggie">
         <br>
+        <label for="kids">Childrens main</label>
+        <input type="radio" name="main" id="kids">
+        <br>
         <b>Desserts</b>
         <br>
         <label for="orange brandy">Orange brandy sponge pudding with custard</label>
@@ -51,26 +54,24 @@
         <label for="chocolate tart">Marbled chocolate tart</label>
         <input type="radio" name="dessert" id="chocolate tart">
         <br>
-        <label for="kids"><b>Childrens Menu</b></label>
-        <input type="radio" name="kids" id="kids">
-        <br>
-        Starter:
-        <br>
-        Main:
-        <br>
-        Dessert:
+        <label for="kids">Childrens dessert</label>
+        <input type="radio" name="dessert" id="kids">
         <br>
         <br>
         <label for="special requirements"><b>Special Requirements</b></label>
         <br>
         <textarea name="special requirements" rows="5" cols="50">Please state any dietary or other requirements here.</textarea>
       </section>
-      <section align="middle">
+      <section>
         <input type="submit">
       </section>
     </form>
-    
-    <h4 align="middle"><a href="./theKellyWedding.html">Home</a></h4>
-    
+    </section>
+    </main>
+    <footer>
+      <p>Website created by: Emily Bland</p>
+      <p>Contact: <a href="mailto:kellywedding281120@gmail.com" target="_blank">kellywedding281120@gmail.com</a></p>
+    </footer>
   </body>
 </html>
+    

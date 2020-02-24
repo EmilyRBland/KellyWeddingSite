@@ -1,0 +1,50 @@
+html {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: url("https://i2.wp.com/www.pixel-creation.com/wp-content/uploads/wedding-website-backgrounds-free-background-editing-picsart.jpg?resize=806%2C537&ssl=1") no-repeat center;
+  background-size: cover;
+  color: FloralWhite;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+
+body {
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(184, 134, 11, 0.4);
+}
+
+img {
+  border-radius: 25px;
+}
+
+.shadow {
+  box-shadow: 0 0 15px 15px;
+  border-radius: 100px;
+}
+
+a:link {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+a:visited {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+a:hover {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+a:active {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+#full-name {
+  border-style: inset;
+}
+
