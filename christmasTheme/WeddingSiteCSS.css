@@ -1,0 +1,117 @@
+html {
+  
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+
+body {
+  
+  text-align: center;
+}
+
+hr.style-1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+hr.style-2 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+th {
+  font-size: 18px
+  text-align: center;
+}
+
+
+
+.book {
+  height: 100px;
+  width: 400px;
+}
+
+
+.form {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255, 0.6);
+  
+}
+
+table {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+img {
+  border-radius: 25px;
+}
+
+
+
+.shadow {
+  box-shadow: 0 0 15px 15px;
+  border-radius: 100px;
+}
+
+a:link {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+a:visited {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+a:hover {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+a:active {
+  text-decoration: none;
+  color: FloralWhite;
+}
+
+#full-name {
+  border-style: inset;
+  border-color: DarkGray;
+  border-radius: 10px;
+}
+
+textarea {
+  border-style: inset;
+  border-color: DarkGray;
+  border-radius: 10px;
+  padding: 7px 8px
+}
+
+input[type=submit] {
+  background-color: FloralWhite;
+  color: DarkSlateGray;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+img.top-right {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  height:200px;
+  width: 180px;
+}
+
+img.top-left {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  height:200px;
+  width: 180px;
+}
