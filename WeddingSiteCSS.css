@@ -3,8 +3,7 @@ html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: 100;
   font-variant: small-caps;
-  background: url("./paper_fibres.png") no-repeat;
-  background-size: cover;
+  background-color: white;
 }
 
 body {
@@ -15,15 +14,14 @@ body.pages {
   margin-left: 250px;
   margin-right: 250px;
   text-align: center;
+  
  
 }
-
-
 
 header {
   background: url("./green.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 }
 
 
@@ -45,13 +43,6 @@ th {
 }
 
 
-
-.book {
-  height: 100px;
-  width: 400px;
-}
-
-
 .form {
   margin-left: 300px;
   margin-right: 300px;
@@ -66,8 +57,14 @@ table {
   margin-right: 10px;
 }
 
+td.text {
+  padding-left: 50px;
+}
+
 img {
-  border-radius: 25px;
+  height: 300px 50%;
+  width: 500px 100%;
+  
 }
 
 
@@ -100,21 +97,22 @@ a:active {
 #full-name {
   border-style: inset;
   border-color: DarkGray;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 textarea {
   border-style: inset;
   border-color: DarkGray;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 7px 8px
 }
 
 input[type=submit] {
-  background-color: FloralWhite;
+  background-color: white;
   color: DarkSlateGray;
+  border-style: inset;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 2px;
 }
 
 /*
