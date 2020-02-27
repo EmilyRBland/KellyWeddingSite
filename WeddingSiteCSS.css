@@ -26,6 +26,8 @@ footer {
   background: url("./green.jpg") no-repeat;
   background-size: cover;
   background-position: center bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 article {
@@ -48,6 +50,14 @@ hr.style-2 {
 th {
   font-size: 18px
   text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-left{
+  clear: left;
 }
 
 
@@ -73,6 +83,11 @@ img {
   height: 300px 50%;
   width: 500px 100%;
   
+}
+
+img.top {
+  height: 30%;
+  width: 100%;
 }
 
 
