@@ -28,6 +28,10 @@ footer {
   background-position: center bottom;
 }
 
+article {
+  text-align: left;
+}
+
 
 hr.style-1 {
     border: 0;
