@@ -25,21 +25,23 @@ header {
 }
 
 .overlay {
-  display: inline-block;
-  align-self: center;
-  background-color: rgb(55, 55, 55, 0.6);
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 75.5%;
+  background-color: rgb(255, 255, 255, 0.6);
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  
+  text-align: center;
 }
 
 .top-page {
-  display: flex;
-  background-image: url("swancar.jpg") no-repeat;
-  background-size: cover;
-  width: 100%;
-  text-align: center;
+  display: inline-block;
+  position: relative;
+  object-fit: cover;
+  width:100%;
 }
 
 footer {
@@ -109,19 +111,20 @@ img {
   
 }
 
+img.move-down{
+  object-position: 0 25%;
+}
+
 img.move-up{
   object-position: 0 75%;
 }
 
 img.crop {
   object-fit: cover;
-  height: 260px;
+  height: 290px;
   width: 100%;
 }
 
-img.top{
-  width: 100%;
-}
 
 .shadow {
   box-shadow: 0 0 15px 15px;
