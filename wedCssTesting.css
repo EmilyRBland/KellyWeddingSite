@@ -25,21 +25,21 @@ header {
 }
 
 .overlay {
-  display: inline-block;
-  align-self: center;
-  background-color: rgb(55, 55, 55, 0.6);
-  width: 100%;
+  background-color: red;
   padding-top: 20px;
   padding-bottom: 20px;
-  
 }
 
 .top-page {
-  display: flex;
-  background-image: url("swancar.jpg") no-repeat;
-  background-size: cover;
-  width: 100%;
+  background: url("swancar.jpg") no-repeat;
+  display:flex;
   text-align: center;
+  flex-direction: column;
+  justify-content: bottom;
+  background-size: cover;
+  height: 260px;
+  width: 100%;
+  object-position: 0 90%;
 }
 
 footer {
