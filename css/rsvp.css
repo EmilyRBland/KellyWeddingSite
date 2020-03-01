@@ -1,0 +1,49 @@
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+textarea {
+  border-style: inset;
+  border-color: DarkGray;
+  border-radius: 5px;
+  padding: 7px 8px
+}
+
+input[type=submit] {
+  background-color: white;
+  color: DarkSlateGray;
+  border-style: inset;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.overlay {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 75.5%;
+  background-color: rgb(255, 255, 255, 0.6);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255, 0.6);
+  
+}
+
+#full-name {
+  border-style: inset;
+  border-color: DarkGray;
+  border-radius: 2px;
+}
+

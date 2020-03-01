@@ -1,0 +1,32 @@
+article {
+  text-align: left;
+}
+
+.overlay {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 75.5%;
+  background-color: rgb(255, 255, 255, 0.6);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.move-up {
+  object-position: 0 75%;
+}
+
+.center {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-left{
+  clear: left;
+}
