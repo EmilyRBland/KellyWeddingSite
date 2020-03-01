@@ -6,8 +6,28 @@ html {
   background-color: white;
 }
 
+.menus{
+  font-size: 30px;
+}
+
 .center {
   text-align: center;
+}
+
+#counter {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  position: absolute;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  top: 10%;
+  width: 35%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 45px;
+  border-radius: 4px;
 }
 
 .v-menu {
@@ -28,7 +48,7 @@ header {
   justify-content: center;
   text-align: center;
   align-items:center;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .overlay {
@@ -44,11 +64,11 @@ header {
   text-align: center;
 }
 
-.top-page {
-  display: inline-block;
-  position: relative;
-  object-fit: cover;
+.us {
   width:100%;
+}
+.top-page {
+  position: relative;
 }
 
 footer {
@@ -68,16 +88,10 @@ article {
 }
 
 
-hr.style-1 {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-}
-
 hr.style-2 {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
 }
 
 th {
