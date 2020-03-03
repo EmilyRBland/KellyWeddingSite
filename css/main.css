@@ -4,6 +4,7 @@ html {
   font-weight: 100;
   font-variant: small-caps;
   background-color: white;
+  font-size: 100%;
 }
 
 
@@ -33,6 +34,7 @@ footer {
   padding-bottom: 30px;
   text-align: center;
   line-height: 30px;
+  font-size: 0.9rem;
 }
 
 .center {
