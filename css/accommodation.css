@@ -5,28 +5,20 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
 }
 
-
 div.polaroid {
-  width: 30%;
+  width: 70%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.container {
   text-align: center;
+  font-size: 0.95rem;
   padding: 10px 20px;
-}
-
-.room-container {
-  float: left;
-  width: 100%;
-  padding: 5px;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 
@@ -41,4 +33,14 @@ div.container {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+}
+
+.hotel {
+  font-size: 1.5rem;
+}
+
+.center {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2%;
 }
