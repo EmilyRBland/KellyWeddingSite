@@ -8,13 +8,16 @@
   </head>
   <body>
     <header>
-      <div>
-        <h1>E m i l y   &   J a m i e</h1>
-        <h2>2 8 . 1 1 . 2 0 2 0</h2>
-      </div>
-      <div>
-        <h4><a href="index.html">H o m e </a>   |  <a href="venue.html">V e n u e</a>   |   <a href="accommodation.html">A c c o m m o d a t i o n</a>   |   <a href="menu.html">M e n u</a></h4>
-      </div>
+      <h1>E m i l y   &   J a m i e</h1>
+      <h2>2 8 . 1 1 . 2 0 2 0</h2>
+      <nav>
+        <ul>
+          <li><a class="nav" href="index.html">Home</a></li>
+          <li><a class="nav" href="venue.html">Venue</a></li>
+          <li><a class="nav" href="accommodation.html">Accommodation</a></li>
+          <li><a class="nav" href="menu.html">Menu</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <section class="top-page">
@@ -22,93 +25,93 @@
         <h2 class="overlay">R s v p</h2>
       </section>
       <section>
-      <form method="POST" action="submission.html" class="form">
-      <section>
-        <h3><strong>Please fill and submit the form below</strong></h3>
-        <label for="full-name">Full Name</label>
-        <input type="text" name="name" id="full-name" required>
-        <br>
-        <br>
-        <strong>Attending:</strong>
-        <label for="attending">Yes</label>
-        <input type="radio" name="attending" id="yes" required>
-        <label for="attending">No</label>
-        <input type="radio" name="attending" id="no" required>
+        <form method="POST" action="submission.html" class="form">
+          <section>
+            <h3><strong>Please fill and submit the form below</strong></h3>
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" required>
+            <br>
+            <br>
+            <strong>Attending:</strong>
+            <label for="attending">Yes</label>
+            <input type="radio" name="attending" id="yes" required>
+            <label for="attending">No</label>
+            <input type="radio" name="attending" id="no" required>
+          </section>
+          <section>
+            <h3>Menu</h3>
+            <strong>Starters</strong>
+            <br>
+            <br>
+            <label for="mushroom">Whole Baked Portobello Mushroom, filled with Welsh Rarebit, Smoked Tomato Chutney, with a Wild Leaf Salad (v)</label>
+            <input type="radio" name="starter" id="mushroom">
+            <br>
+            <br>
+            <label for="soup">Carrot and Butternut Squash Soup served with CremeFraiche and Coriander (v)</label>
+            <input type="radio" name="starter" id="soup">
+            <br>
+            <br>
+            <label for="vegan">Vegan Starter</label>
+            <input type="radio" name="starter" id="vegan">
+            <br>
+            <br>
+            <label for="kids">Childrens Starter</label>
+            <input type="radio" name="starter" id="kids">
+            <br>
+            <hr>
+            <strong>Mains</strong>
+            <br>
+            <br>
+            <label for="lamb">16oz Braised Lamb Shank served with Minted Mash,Roasted Root Vegetables and a Rosemary and Redcurrant Sauce</label>
+            <input type="radio" name="main" id="lamb">
+            <br>
+            <br>
+            <label for="sausages">Trio of Award Winning Sausages (Taylors Country Sausage, Tomato Chorizo, Pork and Leek) served with Creamy Mash, Buttered Cabbage and Onion Gravy</label>
+            <input type="radio" name="main" id="sausages">
+            <br>
+            <br>
+            <label for="veggie">Cannelloni served with Garlic Ciabatta and a Mixed Leaf Salad (v)</label>
+            <input type="radio" name="main" id="veggie">
+            <br>
+            <br>
+            <label for="vegan">Vegan Main</label>
+            <input type="radio" name="main" id="vegan">
+            <br>
+            <br>
+            <label for="kids">Childrens Main</label>
+            <input type="radio" name="main" id="kids">
+            <br>
+            <hr>
+            <strong>Desserts</strong>
+            <br>
+            <br>
+            <label for="orange brandy">Steamed Orange Brandy Pudding served with English Custard</label>
+            <input type="radio" name="dessert" id="orange brandy">
+            <br>
+            <br>
+            <label for="chocolate tart">Marbled Chocolate Tart, Slow Gin Compote served with a White Chocolate Raspberry Ice Cream</label>
+            <input type="radio" name="dessert" id="chocolate tart">
+            <br>
+            <br>
+            <label for="vegan">Vegan Dessert</label>
+            <input type="radio" name="dessert" id="vegan">
+            <br>
+            <br>
+            <label for="kids">Childrens Dessert</label>
+            <input type="radio" name="dessert" id="kids">
+            <br>
+            <br>
+            <label for="special requirements"><strong>Special Requirements</strong></label>
+            <br>
+            <textarea name="special requirements" rows="5" cols="50">Please state any dietary or other requirements here.</textarea>
+          </section>
+          <section>
+            <input type="submit">
+            <br>
+            <br>
+          </section>
+        </form>
       </section>
-      <section>
-        <h3>Menu</h3>
-        <strong>Starters</strong>
-        <br>
-        <br>
-        <label for="mushroom">Whole Baked Portobello Mushroom, filled with Welsh Rarebit, Smoked Tomato Chutney, with a Wild Leaf Salad (v)</label>
-        <input type="radio" name="starter" id="mushroom">
-        <br>
-        <br>
-        <label for="soup">Carrot and Butternut Squash Soup served with CremeFraiche and Coriander (v)</label>
-        <input type="radio" name="starter" id="soup">
-        <br>
-        <br>
-        <label for="vegan">Vegan Starter</label>
-        <input type="radio" name="starter" id="vegan">
-        <br>
-        <br>
-        <label for="kids">Childrens Starter</label>
-        <input type="radio" name="starter" id="kids">
-        <br>
-        <hr>
-        <strong>Mains</strong>
-        <br>
-        <br>
-        <label for="lamb">16oz Braised Lamb Shank served with Minted Mash,Roasted Root Vegetables and a Rosemary and Redcurrant Sauce</label>
-        <input type="radio" name="main" id="lamb">
-        <br>
-        <br>
-        <label for="sausages">Trio of Award Winning Sausages (Taylors Country Sausage, Tomato Chorizo, Pork and Leek) served with Creamy Mash, Buttered Cabbage and Onion Gravy</label>
-        <input type="radio" name="main" id="sausages">
-        <br>
-        <br>
-        <label for="veggie">Cannelloni served with Garlic Ciabatta and a Mixed Leaf Salad (v)</label>
-        <input type="radio" name="main" id="veggie">
-        <br>
-        <br>
-        <label for="vegan">Vegan Main</label>
-        <input type="radio" name="main" id="vegan">
-        <br>
-        <br>
-        <label for="kids">Childrens Main</label>
-        <input type="radio" name="main" id="kids">
-        <br>
-        <hr>
-        <strong>Desserts</strong>
-        <br>
-        <br>
-        <label for="orange brandy">Steamed Orange Brandy Pudding served with English Custard</label>
-        <input type="radio" name="dessert" id="orange brandy">
-        <br>
-        <br>
-        <label for="chocolate tart">Marbled Chocolate Tart, Slow Gin Compote served with a White Chocolate Raspberry Ice Cream</label>
-        <input type="radio" name="dessert" id="chocolate tart">
-        <br>
-        <br>
-        <label for="vegan">Vegan Dessert</label>
-        <input type="radio" name="dessert" id="vegan">
-        <br>
-        <br>
-        <label for="kids">Childrens Dessert</label>
-        <input type="radio" name="dessert" id="kids">
-        <br>
-        <br>
-        <label for="special requirements"><strong>Special Requirements</strong></label>
-        <br>
-        <textarea name="special requirements" rows="5" cols="50">Please state any dietary or other requirements here.</textarea>
-      </section>
-      <section>
-        <input type="submit">
-        <br>
-        <br>
-      </section>
-    </form>
-    </section>
     </main>
     <footer>
       <div><strong>Website by:</strong> Emily Bland</div>
@@ -118,4 +121,3 @@
 </html>
     
     
-<!-- <h1><a href="./theKellyWedding.html">Home</a>  |  <a href="./venue.html">Venue</a>  |  <a href="./accommodation.html">Accommodation</a>  |  <a href="./rsvp.html"><em>RSVP</em></a>  |  <a href="./menu.html">Menu</a></h1> -->
