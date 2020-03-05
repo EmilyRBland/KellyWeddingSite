@@ -46,26 +46,12 @@ hr {
 
 }
 
-@media only screen and (min-width: 768px) {
-  .container1 > .div1 {
-    margin: 1%;
-    max-width: 100%;
-    min-width: 40%;
-    flex: 1;
-    background-color: white;
-    padding: 0.5%;
-    font-size: 1rem;
-    text-align: center;
-    align-items: center;
-    
-  }
-
-}
 
 .container {
   text-align: center;
   font-size: 0.95rem;
   margin: 1%;
+  bottom: 0;
 }
 
 
@@ -74,7 +60,9 @@ hr {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 3%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -92,6 +80,7 @@ hr {
 }
 
 .hotel {
+  display: inline-block;
   font-size: 1.5rem;
 }
 

@@ -10,8 +10,8 @@ html {
 
 @media only screen and (min-width: 800px) {
   body {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 
@@ -32,8 +32,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
   line-height: 30px;
   font-size: 0.9rem;
@@ -56,6 +56,10 @@ ul {
 li, a {
   display: block;
   padding: 2px;
+}
+
+.contact {
+  display: inline-block;
 }
 
 .spacing {
