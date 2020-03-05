@@ -58,6 +58,11 @@ li, a {
   padding: 2px;
 }
 
+.spacing {
+  letter-spacing: 0.5rem;
+  line-height: 0.9rem;
+}
+
 .center {
   text-align: center;
 }
