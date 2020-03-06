@@ -40,10 +40,15 @@
   }
 
   .container {
+    width: 100%;
     display: flex;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    padding: 3%;
     margin: 1%;
+    background-color: rgba(214, 255, 235, 0.4);
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
@@ -61,10 +66,15 @@
   }
 
   .container {
+    width: 100%;
     display: flex;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    padding: 3%;
     margin: 1%;
+    background-color: rgba(214, 255, 235, 0.4);
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
 }
@@ -76,19 +86,16 @@
   margin: 3%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .polaroid > img {
   display:flex;
-  height:70%;
+  height:75%;
+  width: 100%;
 }
 
 .hotel {
   display: inline-block;
-  font-size: 1rem;
-}
-
-.book:first-letter {
   font-size: 1rem;
 }
