@@ -20,6 +20,7 @@
 .hotels-container {
   max-width: 100%;
   display: flex;
+  padding-bottom: 3%;
   background-color: white;
   flex-direction: row;
   flex-wrap: wrap;
