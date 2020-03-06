@@ -33,19 +33,21 @@
   .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0.4%;
 }
 
 .column > img {
-  margin-top: 8px;
+  margin-top: 3%;
   vertical-align: middle;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
