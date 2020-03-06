@@ -28,6 +28,7 @@ article {
     text-align: center;
     float: left;
     width: 50%;
+    padding-bottom: 2%;
   }
 
   .float-right {
@@ -58,4 +59,9 @@ article {
     clear: left;
     margin-top: 2%;
   }
+}
+
+iframe {
+  width: 100%;
+  border: 1px solid white;
 }
