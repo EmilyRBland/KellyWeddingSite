@@ -2,6 +2,11 @@ article {
   text-align: left;
 }
 
+h3 {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+}
+
 .overlay {
   position: absolute;
   margin: 0 auto;
@@ -63,5 +68,6 @@ article {
 
 iframe {
   width: 100%;
-  border: 1px solid white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
